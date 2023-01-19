@@ -8,12 +8,17 @@ The robot is basically a box moving according to differential drive kinematics.
 The *DiffBot* URDF files can be found in `urdf` folder of `ros2_bosch` package.
 
 
-1. To start *DiffBot* example open a terminal, source your ROS2-workspace and execute its launch file with:
+1. To start *DiffBot* in gazebo open a terminal, source your ROS2-workspace and execute its launch file with:
    ```
-   ros2 launch ros2_bosch diffbot.launch.py
+   ros2 launch ros2_bosch diffbot_gazebo.launch.py
    ```
    The launch file loads and starts the robot hardware and controllers.
  
+1. To start *Command publisher node* open a terminal, source your ROS2-workspace and execute its launch file with:
+   ```
+   ros2 launch ros2_bosch command_node.launch.py
+   ```
+   The launch file loads and starts the forward and angular commade publisher nodes.
 
 1. If everything is fine, now you can send a command to *Diff Drive Controller* using ros2 cli interface:
    ```
