@@ -26,8 +26,6 @@ The *DiffBot* URDF files can be found in `urdf` folder of `ros2_bosch` package.
     y: 0.0
     z: 1.0"
     ```
-   You should now see an orange box circling in `RViz`.
-   Also, you should see changing states in the terminal where launch file is started.
 
 
 Files used for this demos:
