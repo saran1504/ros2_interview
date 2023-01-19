@@ -1,6 +1,11 @@
 # ros2_interview
 Miniproject
 
+Package: ros2_bosch
+Launch file to start Gazebo Fortress and spawning the robot: diffbot_gazebo.launch.py
+Launch file to start the command publisher node: command_node.launch.py
+Command publisher nodes: 
+
 ## *DiffBot*
 
 *DiffBot*, or ''Differential Mobile Robot'', is a simple mobile base with differential drive.
@@ -34,9 +39,9 @@ The *DiffBot* URDF files can be found in `urdf` folder of `ros2_bosch` package.
 
 
 Files used for this project:
-  - Launch file: [diffbot.launch.py](ros2_control_demo_bringup/launch/diffbot.launch.py)
-  - Controllers yaml: [diffbot_controllers.yaml](ros2_control_demo_bringup/config/diffbot_controllers.yaml)
-  - URDF file: [diffbot.urdf.xacro](ros2_control_demo_description/diffbot_description/urdf/diffbot.urdf.xacro)
-    - Description: [diffbot_description.urdf.xacro](ros2_control_demo_description/diffbot_description/urdf/diffbot_description.urdf.xacro)
-    - `ros2_control` tag: [diffbot.ros2_control.xacro](ros2_control_demo_description/diffbot_description/ros2_control/diffbot.ros2_control.xacro)
+  - Launch file: [diffbot.launch.py](ros2_bosch/launch/diffbot.launch.py)
+  - Controllers yaml: [diffbot_controllers.yaml](ros2_bosch/config/diffbot_controllers.yaml)
+  - URDF file: [diffbot.urdf.xacro](ros2_bosch/urdf/diffbot.urdf.xacro)
+    - Description: [diffbot_description.urdf.xacro](ros2_bosch/urdf/diffbot_description.urdf.xacro)
+    - `ros2_control` tag: [diffbot.ros2_control.xacro](ros2_bosch/urdf/diffbot.ros2_control.xacro)
 
